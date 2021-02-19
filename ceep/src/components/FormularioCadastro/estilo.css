@@ -20,10 +20,12 @@
   align-self: flex-end;
   width: 30%;
   background-color: var(--secundaria);
-  color: white;
+  color: rgb(250, 248, 248);
   font-weight: 400;
+  
 }
 
 .form-cadastro_submit:active {
   background-color: var(--secundaria-ativa);
+  
 }
