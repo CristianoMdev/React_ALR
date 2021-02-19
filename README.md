@@ -1,2 +1,2 @@
-# React_ALR
+# React-Alura
  Aulas de React da Alura
