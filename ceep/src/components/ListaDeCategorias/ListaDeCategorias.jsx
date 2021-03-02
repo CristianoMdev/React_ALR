@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "./estilo.css"
 class ListaDeCategorias extends Component {
-_hendleEventoInput(e){
+_handleEventoInput(e){
     if(e.key == "Enter"){
         let valorCategoria = e.target.value;
         this.props.adicionarCategoria(valorCategoria);
@@ -18,7 +18,7 @@ _hendleEventoInput(e){
             type="text" 
             className="lista-categorias_input" 
             placeholder="Adicionar Categoria"
-            onKeyUp={this._hendleEventoInput.bind(this)}
+            onKeyUp={this._handleEventoInput.bind(this)}
             />
             
             </section>
