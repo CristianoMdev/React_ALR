@@ -1,9 +1,11 @@
 .conteudo {
   display: flex;
+  background-image:url("https://ada.vc/wp-content/uploads/2019/05/david-travis-547046-unsplash-1000x667.jpg");
 }
 
 .conteudo-principal{
-  flex-grow: 3;
+  flex-grow: 7;
+  
 }
 
 :root {
@@ -12,5 +14,5 @@
   --secundaria-ativa: #cccccc;
   --fundo: #ffffff;
   --fundo-detalhes: #faf73598;
-  
+ 
 }
